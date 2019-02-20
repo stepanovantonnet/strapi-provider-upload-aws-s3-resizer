@@ -1,0 +1,32 @@
+{
+  "name": "strapi-provider-upload-aws-s3-resizer",
+  "version": "3.0.0-alpha.24.1",
+  "description": "strapi-provider-upload-aws-s3 with resize options",
+  "author": "antonstepanov",
+  "license": "ISC",
+  "homepage": "http://strapi.io",
+  "keywords": [
+    "upload",
+    "aws",
+    "s3",
+    "strapi"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "aws-sdk": "^2.199.0"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strapi/strapi.git"
+  },
+  "engines": {
+    "node": ">= 10.0.0",
+    "npm": ">= 6.0.0"
+  }
+}
