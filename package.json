@@ -1,32 +1,41 @@
 {
-  "name": "strapi-provider-upload-aws-s3-resizer",
-  "version": "3.0.0-alpha.24.1",
-  "description": "strapi-provider-upload-aws-s3 with resize options",
-  "author": "antonstepanov",
-  "license": "ISC",
-  "homepage": "http://strapi.io",
-  "keywords": [
-    "upload",
-    "aws",
-    "s3",
-    "strapi"
-  ],
-  "directories": {
-    "lib": "./lib"
-  },
-  "main": "./lib",
-  "dependencies": {
-    "aws-sdk": "^2.199.0"
-  },
-  "strapi": {
-    "isProvider": true
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/stepanovantonnet/strapi-provider-upload-aws-s3-resizer.git"
-  },
-  "engines": {
-    "node": ">= 10.0.0",
-    "npm": ">= 6.0.0"
-  }
+    "name": "strapi-provider-upload-aws-s3-resizer",
+    "version": "3.0.0-alpha.24.2",
+    "description": "strapi-provider-upload-aws-s3 with resize options",
+    "license": "ISC",
+    "homepage": "http://strapi.io",
+    "keywords": [
+        "upload",
+        "aws",
+        "s3",
+        "strapi"
+    ],
+    "directories": {
+        "lib": "./lib"
+    },
+    "main": "./lib",
+    "dependencies": {
+        "aws-sdk": "^2.199.0",
+        "sharp": "^0.21.3"
+    },
+    "strapi": {
+        "isProvider": true
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/stepanovantonnet/strapi-provider-upload-aws-s3-resizer.git"
+    },
+    "author": {
+        "email": "anton.stepanov@dailybonus.io",
+        "name": "antonstepanov"
+    },
+    "engines": {
+        "node": ">= 10.0.0",
+        "npm": ">= 6.0.0"
+    },
+    "devDependencies": {
+        "eslint": "^5.14.1",
+        "eslint-config-airbnb-base": "^13.1.0",
+        "eslint-plugin-import": "^2.16.0"
+    }
 }
