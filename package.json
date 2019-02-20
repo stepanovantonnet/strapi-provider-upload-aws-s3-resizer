@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/strapi/strapi.git"
+    "url": "git://github.com/stepanovantonnet/strapi-provider-upload-aws-s3-resizer.git"
   },
   "engines": {
     "node": ">= 10.0.0",
