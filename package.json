@@ -1,6 +1,6 @@
 {
     "name": "strapi-provider-upload-aws-s3-resizer",
-    "version": "3.0.0-beta.19.3",
+    "version": "3.0.0-beta.19.3.1",
     "description": "strapi-provider-upload-aws-s3 with resize options",
     "license": "ISC",
     "homepage": "http://strapi.io",
